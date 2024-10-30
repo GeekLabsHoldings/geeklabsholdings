@@ -5,40 +5,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "Acumin Pro Bold Italic";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Acumin Pro Bold Italic"),
-    url("/fonts/Acumin-BdItPro.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Hellix";
-  src: url("/fonts/Hellix-Black.eot");
-  src: local("Hellix Black"), local("Hellix-Black"),
-    url("/fonts/Hellix-Black.eot?#iefix") format("embedded-opentype"),
-    url("/fonts/Hellix-Black.woff2") format("woff2"),
-    url("/fonts/Hellix-Black.woff") format("woff"),
-    url("/fonts/Hellix-Black.ttf") format("truetype");
-  font-weight: 900;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "CustomLTSaeadaMedium";
-  font-style: normal;
-  font-weight: normal;
-  src: local("LT Saeada Medium"),
-    url("/fonts/LTSaeada-Medium.woff") format("woff");
-}
-
-@font-face {
-  font-family: "CustomLTSaeadaBold";
-  font-style: normal;
-  font-weight: normal;
-  src: local("LT Saeada Bold"), url("/fonts/LTSaeada-Bold.woff") format("woff");
-}
 /* ===== End Imports ==== */
 
 /* ===== Start Variables ====== */
@@ -238,10 +204,6 @@
 /* ===== End Variables ===== */
 
 /* ===== Start Global Styles ===== */
-* {
-  transition: all 0.3s;
-}
-
 *::-webkit-scrollbar {
   width: 3px;
   height: 3px;
