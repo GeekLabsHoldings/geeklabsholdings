@@ -16,7 +16,7 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Geek Labs Holdings",
   description:
-    "Geek Labs Holdings is a privately held mergers and acquisitions firm focused on media and technology assets.  We specialize in identifying promising startup media brands and turning them into substantial businesses.",
+    "Geek Labs Holdings is a privately held mergers and acquisitions firm focused on media and technology assets. We specialize in identifying promising startup media brands and turning them into substantial businesses.",
 };
 
 export default function RootLayout({
